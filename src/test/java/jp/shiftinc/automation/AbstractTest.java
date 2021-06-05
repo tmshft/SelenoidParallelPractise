@@ -31,7 +31,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 abstract class AbstractTest<ScenarioTest> {
     private static final Logger logger = LoggerFactory.getLogger(ParallelTestExample.class);
-    private static TestFixture fixture;
+    private TestFixture fixture;
     private RemoteWebDriver driver;
 
     @SuppressWarnings("unchecked")
