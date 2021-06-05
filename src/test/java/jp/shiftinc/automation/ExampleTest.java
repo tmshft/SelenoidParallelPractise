@@ -29,12 +29,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(SelenoidTestWatcher.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ExampleTest {
-    private final String TEST_URL = "https://www.selenium.dev/downloads/";
-    private RemoteWebDriver driver;
-    private String baseUrl;
+    final String TEST_URL = "https://www.selenium.dev/downloads/";
+    RemoteWebDriver driver;
+    String baseUrl;
     private URL nodeUrl;
     private String videoName;
-    private String sessionId;
+    String sessionId;
     private String md5;
 
     @BeforeAll
