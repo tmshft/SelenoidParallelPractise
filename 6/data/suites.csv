@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 05 17:40:44 GMT 2021","Sat Jun 05 17:41:06 GMT 2021","22773","","jp.shiftinc.automation.ParallelTestExampleAlt.P3","","jp.shiftinc.automation.ParallelTestExampleAlt$P3","canDownloadCorrectFile","canDownloadCorrectFile()",""
+"passed","Sat Jun 05 17:40:44 GMT 2021","Sat Jun 05 17:41:05 GMT 2021","21165","","jp.shiftinc.automation.ParallelTestExampleAlt.P2","","jp.shiftinc.automation.ParallelTestExampleAlt$P2","canDownloadCorrectFile","canDownloadCorrectFile()",""
+"passed","Sat Jun 05 17:40:45 GMT 2021","Sat Jun 05 17:41:05 GMT 2021","20145","","jp.shiftinc.automation.ParallelTestExampleAlt.P1","","jp.shiftinc.automation.ParallelTestExampleAlt$P1","canDownloadCorrectFile","canDownloadCorrectFile()",""

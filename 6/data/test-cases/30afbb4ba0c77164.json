@@ -1,0 +1,100 @@
+{
+  "uid" : "30afbb4ba0c77164",
+  "name" : "canDownloadCorrectFile()",
+  "fullName" : "jp.shiftinc.automation.ParallelTestExampleAlt$P2.canDownloadCorrectFile",
+  "historyId" : "a979ca252094c9c2c5960ed414649446",
+  "time" : {
+    "start" : 1622914844114,
+    "stop" : 1622914865279,
+    "duration" : 21165
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "70c09b95d41a9850",
+      "name" : "img01",
+      "source" : "70c09b95d41a9850.png",
+      "type" : "image/png",
+      "size" : 100470
+    }, {
+      "uid" : "a2dac6086c998807",
+      "name" : "IEDriverServer",
+      "source" : "a2dac6086c998807.exe",
+      "type" : "application/octet-stream",
+      "size" : 1112869
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az198-532"
+  }, {
+    "name" : "thread",
+    "value" : "3728@fv-az198-532.ForkJoinPool-1-worker-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt$P2"
+  }, {
+    "name" : "testClass",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt$P2"
+  }, {
+    "name" : "testMethod",
+    "value" : "canDownloadCorrectFile"
+  }, {
+    "name" : "suite",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt.P2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e8f525b3881534b8",
+        "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/5//#testresult/e8f525b3881534b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622904645850,
+          "stop" : 1622904666674,
+          "duration" : 20824
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "30afbb4ba0c77164.json",
+  "parameterValues" : [ ]
+}
