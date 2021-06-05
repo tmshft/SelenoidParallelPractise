@@ -1,4 +1,4 @@
-name: Selenoid Test Example
+name: Selenium Parrellel Testing Example
 on:
   pull_request:
     branches:
@@ -19,7 +19,7 @@ jobs:
         run: |
           chmod +x ./gradlew
           ./gradlew -Dselenoid.base.url=http://127.0.0.1:4444 -Dselenoid.path=/wd/hub \
-          clean test --tests ParallelTestExample*
+          clean test --tests "ParallelTestExampleAlt\$*"
           hostname=`echo "$GITHUB_REPOSITORY" | sed -e "s/\//.github.io\//g"`
           echo "::set-output name=HOSTNAME::${hostname}"
         id: execute-test

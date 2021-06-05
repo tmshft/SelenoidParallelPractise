@@ -1,6 +1,6 @@
 # SelenoidTest
 
-An Example for Selenium E2E test by using GitHub Actions and Selenoid test grid.
+An Example for Parallel  Selenium E2E testing by using GitHub Actions Selenoid grid.
 
 This is a repository for examining test frameworks using Selenoid's Download API and Video API.
 
