@@ -146,14 +146,16 @@ abstract class AbstractTest<ScenarioTest> {
     File downloadFile(URL url) throws IOException {
         String path = url.getPath();
         String downloadFile = "build/tmp/" + path.substring(path.lastIndexOf("/") + 1);
-        try (DataInputStream in = new DataInputStream(url.openStream());
-             DataOutputStream out = new DataOutputStream(new FileOutputStream(downloadFile))) {
-            byte[] buf = new byte[8192];
-            int len;
-            while ((len = in.read(buf)) != -1) {
-                out.write(buf, 0, len);
-            }
-            out.flush();
+        try (DataInputStream in = new DataInputStream(url.openStream()) ;
+            DataOutputStream out = new DataOutputStream(new FileOutputStream(downloadFile))) {
+                byte[] buf = new byte[8192];
+                int len;
+                while ((len = in.read(buf)) != -1) {
+                    out.write(buf, 0, len);
+                }
+                out.flush();
+            } catch (Exception e) {
+            throw e;
         }
         return new File(downloadFile);
     }
