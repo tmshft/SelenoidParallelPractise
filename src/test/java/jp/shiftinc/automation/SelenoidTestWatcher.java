@@ -24,7 +24,7 @@ class SelenoidTestWatcher implements TestWatcher {
     }
 
     private void tearDown(ExtensionContext context) throws IOException, InterruptedException {
-        ExampleTest exampleTest = (ExampleTest)context.getRequiredTestInstance();
+        AbstractTest exampleTest = (AbstractTest)context.getRequiredTestInstance();
         exampleTest.downloadVideo();
         exampleTest.downloadLog();
     }

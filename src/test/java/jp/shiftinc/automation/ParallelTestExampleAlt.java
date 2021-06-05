@@ -8,11 +8,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ParallelTestExampleAlt {
 
-    static class P1 extends ParallelTestExample{}
+    static class P1 extends AbstractTest<P1>{}
 
-    static class P2 extends ParallelTestExample{}
+    static class P2 extends AbstractTest<P2>{}
 
-    static class P3 extends ParallelTestExample{}
+    static class P3 extends AbstractTest<P3>{}
 
-    class P4 extends ParallelTestExample{}
+    static class P4 extends AbstractTest<P4>{}
+
+    //static class P3 extends ParallelTestExample{}
 }
