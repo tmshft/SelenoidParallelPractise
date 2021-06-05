@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az201-764",
+    "children" : [ {
+      "name" : "3596@fv-az201-764.ForkJoinPool-1-worker-3(14)",
+      "children" : [ {
+        "name" : "canClickElement()",
+        "uid" : "6683cfb846c0f707",
+        "parentUid" : "e5d9c5cb37763d2eaf9c3a6327cd400e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1622864809370,
+          "stop" : 1622864809370,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allow popup when download => false",
+        "uid" : "39cb0c56545410dc",
+        "parentUid" : "e5d9c5cb37763d2eaf9c3a6327cd400e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622864792646,
+          "stop" : 1622864809360,
+          "duration" : 16714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5d9c5cb37763d2eaf9c3a6327cd400e"
+    }, {
+      "name" : "3596@fv-az201-764.ForkJoinPool-1-worker-1(15)",
+      "children" : [ {
+        "name" : "allow popup when download => false",
+        "uid" : "7ff36d0b233c81a1",
+        "parentUid" : "543e09cf076c0e1ea3196604f601756a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622864792649,
+          "stop" : 1622864809070,
+          "duration" : 16421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "canClickElement()",
+        "uid" : "aca938ae492e4511",
+        "parentUid" : "543e09cf076c0e1ea3196604f601756a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1622864809209,
+          "stop" : 1622864809209,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "543e09cf076c0e1ea3196604f601756a"
+    } ],
+    "uid" : "3b856a83a42922b465004de71555ae87"
+  } ],
+  "name" : "timeline"
+}

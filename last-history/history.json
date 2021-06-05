@@ -1,0 +1,84 @@
+{
+  "ff888011fd90ad194599e4b3d2ebe422" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ff36d0b233c81a1",
+      "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/1//#testresult/7ff36d0b233c81a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622864792649,
+        "stop" : 1622864809070,
+        "duration" : 16421
+      }
+    } ]
+  },
+  "c101ac91a9da7b651b49cdff9389de26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aca938ae492e4511",
+      "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/1//#testresult/aca938ae492e4511",
+      "status" : "skipped",
+      "statusDetails" : "void jp.shiftinc.automation.ParallelTestExample.canClickElement() throws java.io.IOException is @Disabled",
+      "time" : {
+        "start" : 1622864809209,
+        "stop" : 1622864809209,
+        "duration" : 0
+      }
+    } ]
+  },
+  "23445a8de9e0c789a4283cf25003e450" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39cb0c56545410dc",
+      "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/1//#testresult/39cb0c56545410dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622864792646,
+        "stop" : 1622864809360,
+        "duration" : 16714
+      }
+    } ]
+  },
+  "2b958cedc48e3d50791491336328644a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6683cfb846c0f707",
+      "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/1//#testresult/6683cfb846c0f707",
+      "status" : "skipped",
+      "statusDetails" : "void jp.shiftinc.automation.ParallelTestExample.canClickElement() throws java.io.IOException is @Disabled",
+      "time" : {
+        "start" : 1622864809370,
+        "stop" : 1622864809370,
+        "duration" : 0
+      }
+    } ]
+  }
+}

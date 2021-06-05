@@ -1,0 +1,41 @@
+[ {
+  "uid" : "7ff36d0b233c81a1",
+  "name" : "allow popup when download => false",
+  "time" : {
+    "start" : 1622864792649,
+    "stop" : 1622864809070,
+    "duration" : 16421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6683cfb846c0f707",
+  "name" : "canClickElement()",
+  "time" : {
+    "start" : 1622864809370,
+    "stop" : 1622864809370,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aca938ae492e4511",
+  "name" : "canClickElement()",
+  "time" : {
+    "start" : 1622864809209,
+    "stop" : 1622864809209,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "39cb0c56545410dc",
+  "name" : "allow popup when download => false",
+  "time" : {
+    "start" : 1622864792646,
+    "stop" : 1622864809360,
+    "duration" : 16714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
