@@ -1,0 +1,122 @@
+{
+  "uid" : "242381add853358a",
+  "name" : "canDownloadCorrectFile()",
+  "fullName" : "jp.shiftinc.automation.ParallelTestExampleAlt$P3.canDownloadCorrectFile",
+  "historyId" : "f24e0ff27b4efeb25b36a2063484b764",
+  "time" : {
+    "start" : 1622915940123,
+    "stop" : 1622915961701,
+    "duration" : 21578
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8675f9e3d2005e79",
+      "name" : "img01",
+      "source" : "8675f9e3d2005e79.png",
+      "type" : "image/png",
+      "size" : 100470
+    }, {
+      "uid" : "8bbd231ea3b59179",
+      "name" : "IEDriverServer",
+      "source" : "8bbd231ea3b59179.exe",
+      "type" : "application/octet-stream",
+      "size" : 1112869
+    }, {
+      "uid" : "bfdfdbd1f6d8ba97",
+      "name" : "video",
+      "source" : "bfdfdbd1f6d8ba97.mp4",
+      "type" : "video/mp4",
+      "size" : 120816
+    }, {
+      "uid" : "411b052c4ff64329",
+      "name" : "browser-log-file",
+      "source" : "411b052c4ff64329.log",
+      "type" : "text/plain",
+      "size" : 71077
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az292-947"
+  }, {
+    "name" : "thread",
+    "value" : "3396@fv-az292-947.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt$P3"
+  }, {
+    "name" : "testClass",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt$P3"
+  }, {
+    "name" : "testMethod",
+    "value" : "canDownloadCorrectFile"
+  }, {
+    "name" : "suite",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt.P3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "eb3fa4282beed106",
+        "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/6//#testresult/eb3fa4282beed106",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622914844118,
+          "stop" : 1622914866891,
+          "duration" : 22773
+        }
+      }, {
+        "uid" : "5bce9f370eebc02a",
+        "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/5//#testresult/5bce9f370eebc02a",
+        "status" : "broken",
+        "statusDetails" : "http://127.0.0.1:4444/download/2a7d4e06d41d7c53c79cdf2535d105ef/IEDriverServer_Win32_3.150.1.zip",
+        "time" : {
+          "start" : 1622904645859,
+          "stop" : 1622904667379,
+          "duration" : 21520
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "242381add853358a.json",
+  "parameterValues" : [ ]
+}

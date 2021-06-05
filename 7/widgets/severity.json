@@ -1,0 +1,31 @@
+[ {
+  "uid" : "9adb5b4388f08772",
+  "name" : "canDownloadCorrectFile()",
+  "time" : {
+    "start" : 1622915941649,
+    "stop" : 1622915961108,
+    "duration" : 19459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "242381add853358a",
+  "name" : "canDownloadCorrectFile()",
+  "time" : {
+    "start" : 1622915940123,
+    "stop" : 1622915961701,
+    "duration" : 21578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b996c721f95275c9",
+  "name" : "canDownloadCorrectFile()",
+  "time" : {
+    "start" : 1622915940123,
+    "stop" : 1622915962129,
+    "duration" : 22006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

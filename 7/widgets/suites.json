@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "6919ffa549beeb2450cadaae78a27db9",
+    "name" : "jp.shiftinc.automation.ParallelTestExampleAlt.P2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "daf47b432dd057741693e9b336b12d2d",
+    "name" : "jp.shiftinc.automation.ParallelTestExampleAlt.P3",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9cb1b0c9b52ae3a6a20c8c45ff42ac86",
+    "name" : "jp.shiftinc.automation.ParallelTestExampleAlt.P1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

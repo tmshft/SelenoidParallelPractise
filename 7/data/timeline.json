@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az292-947",
+    "children" : [ {
+      "name" : "3396@fv-az292-947.ForkJoinPool-1-worker-1(15)",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile()",
+        "uid" : "b996c721f95275c9",
+        "parentUid" : "72b0cb3cb1639ebc049e20adaef07424",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622915940123,
+          "stop" : 1622915962129,
+          "duration" : 22006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72b0cb3cb1639ebc049e20adaef07424"
+    }, {
+      "name" : "3396@fv-az292-947.ForkJoinPool-1-worker-5(22)",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile()",
+        "uid" : "9adb5b4388f08772",
+        "parentUid" : "488cf0cd00181b9c2746c79760291644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622915941649,
+          "stop" : 1622915961108,
+          "duration" : 19459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "488cf0cd00181b9c2746c79760291644"
+    }, {
+      "name" : "3396@fv-az292-947.ForkJoinPool-1-worker-3(14)",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile()",
+        "uid" : "242381add853358a",
+        "parentUid" : "d07d604a661a0af8f7f5b1a94dc76bdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622915940123,
+          "stop" : 1622915961701,
+          "duration" : 21578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d07d604a661a0af8f7f5b1a94dc76bdc"
+    } ],
+    "uid" : "685a1c3bb4b3d11f653303ead951edae"
+  } ],
+  "name" : "timeline"
+}
