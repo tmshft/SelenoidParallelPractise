@@ -14,7 +14,5 @@ public class ParallelTestExampleAlt {
 
     static class P3 extends AbstractTest<P3>{}
 
-    static class P4 extends AbstractTest<P4>{}
-
     //static class P3 extends ParallelTestExample{}
 }
