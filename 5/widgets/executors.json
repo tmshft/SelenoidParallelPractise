@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://tmshft.github.io/SelenoidParallelPractise",
+  "buildOrder" : 5,
+  "buildName" : "GitHub Actions Run #909502809",
+  "buildUrl" : "https://github.com/tmshft/SelenoidParallelPractise/actions/runs/909502809",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://tmshft.github.io/SelenoidParallelPractise/5/"
+} ]

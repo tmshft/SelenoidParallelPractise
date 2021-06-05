@@ -1,0 +1,80 @@
+{
+  "uid" : "7a51242e02457bed",
+  "name" : "canDownloadCorrectFile()",
+  "fullName" : "jp.shiftinc.automation.ParallelTestExampleAlt$P1.canDownloadCorrectFile",
+  "historyId" : "9e42f73c6983e3839bfea4ec8b9e32ac",
+  "time" : {
+    "start" : 1622904647578,
+    "stop" : 1622904667326,
+    "duration" : 19748
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "585f9c0feeb37c43",
+      "name" : "img01",
+      "source" : "585f9c0feeb37c43.png",
+      "type" : "image/png",
+      "size" : 100470
+    }, {
+      "uid" : "3ac5b5390da0673a",
+      "name" : "IEDriverServer",
+      "source" : "3ac5b5390da0673a.exe",
+      "type" : "application/octet-stream",
+      "size" : 1112869
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az154-650"
+  }, {
+    "name" : "thread",
+    "value" : "3687@fv-az154-650.ForkJoinPool-1-worker-5(22)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt$P1"
+  }, {
+    "name" : "testClass",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt$P1"
+  }, {
+    "name" : "testMethod",
+    "value" : "canDownloadCorrectFile"
+  }, {
+    "name" : "suite",
+    "value" : "jp.shiftinc.automation.ParallelTestExampleAlt.P1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a51242e02457bed.json",
+  "parameterValues" : [ ]
+}

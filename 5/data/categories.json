@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "http://127.0.0.1:4444/download/2a7d4e06d41d7c53c79cdf2535d105ef/IEDriverServer_Win32_3.150.1.zip",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile()",
+        "uid" : "5bce9f370eebc02a",
+        "parentUid" : "b04f783a88a70273592bd8a6cd2ac394",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622904645859,
+          "stop" : 1622904667379,
+          "duration" : 21520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b04f783a88a70273592bd8a6cd2ac394"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

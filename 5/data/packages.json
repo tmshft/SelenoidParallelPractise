@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "jp.shiftinc.automation",
+    "children" : [ {
+      "name" : "ParallelTestExampleAlt$P2",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile",
+        "uid" : "e8f525b3881534b8",
+        "parentUid" : "65af2aeec479577c177f2ee0cc2a9262",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622904645850,
+          "stop" : 1622904666674,
+          "duration" : 20824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65af2aeec479577c177f2ee0cc2a9262"
+    }, {
+      "name" : "ParallelTestExampleAlt$P3",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile",
+        "uid" : "5bce9f370eebc02a",
+        "parentUid" : "40f0cd45ed2e191e63129216aac733a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622904645859,
+          "stop" : 1622904667379,
+          "duration" : 21520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40f0cd45ed2e191e63129216aac733a3"
+    }, {
+      "name" : "ParallelTestExampleAlt$P1",
+      "children" : [ {
+        "name" : "canDownloadCorrectFile",
+        "uid" : "7a51242e02457bed",
+        "parentUid" : "1527867f92fbec9a2dc04fe14bc11e43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622904647578,
+          "stop" : 1622904667326,
+          "duration" : 19748
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1527867f92fbec9a2dc04fe14bc11e43"
+    } ],
+    "uid" : "jp.shiftinc.automation"
+  } ],
+  "name" : "packages"
+}
