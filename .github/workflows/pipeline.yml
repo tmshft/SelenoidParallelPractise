@@ -1,4 +1,4 @@
-name: Selenoid Test Example
+name: Selenium Parrellel Testing Example
 on:
   pull_request:
     branches:
